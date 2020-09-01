@@ -1,0 +1,8 @@
+name: nifi
+basetag: 37
+urlpath: nifi/%s/nifi-%s-bin.tar.gz
+containers:
+   - elek/nifi
+git: https://github.com/elek/docker-nifi
+versions:
+  - 1.12.0
